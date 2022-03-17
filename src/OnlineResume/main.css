@@ -1,0 +1,26 @@
+.container{
+    width: 300px;
+    border: 10px white;
+    padding: 50px;
+    margin: 500px;
+    top: -3000px;
+    border-radius: 25px; /*rounds corner of vox*/
+    background-color: white;
+}
+
+#username{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#pword{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, blue, purple);
+}
+
