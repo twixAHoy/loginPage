@@ -33,6 +33,10 @@ if(!$userLoginMessage){
 
 
 <body>
+    <script>
+        document.body.className = 'fade';
+    </script>
+
     <form method="POST">
         <div class="container">
             <input type="text" name="uname" id="username" placeholder="Enter Username" required>
@@ -43,6 +47,12 @@ if(!$userLoginMessage){
 
         </div>
     </form>
-
+    <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      window.setTimeout(function() {
+        document.body.className = '';
+      }, 230);
+    });
+  </script>
 </body>
 </html> 
