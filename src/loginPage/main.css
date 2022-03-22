@@ -1,0 +1,52 @@
+.container{
+    width: 300px;
+    border: 10px white;
+    padding: 50px;
+    margin: 500px;
+    top: -30000px;
+    border-radius: 25px; /*rounds corner of vox*/
+    background-color: white;
+}
+
+#username{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+#pword{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to right, blue, purple);
+    opacity: 1;
+    transition-duration: 2s;
+    transition-property: opacity;
+}
+
+body.fade{
+    opacity: 0;
+}
+
+button:hover{
+    color: green;
+}
+
+ul{
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+body.mainPage{
+    background-color: white;
+}
+
